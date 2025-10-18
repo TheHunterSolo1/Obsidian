@@ -184,7 +184,7 @@ end
 if RunService:IsStudio() then
     if UserInputService.TouchEnabled and not UserInputService.MouseEnabled then
         Library.IsMobile = true
-        Library.MinSize = Vector2.new(480, 240)
+        Library.MinSize = Vector2.new(360, 240)
     else
         Library.IsMobile = false
         Library.MinSize = Vector2.new(480, 360)
